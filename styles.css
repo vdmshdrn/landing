@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
 .navbar {
@@ -43,26 +43,31 @@ li {
     font-size: 24px;
     color: #fff;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .img_place {
     width: 450px;
     height: 300px;
     border: 1px solid #fff;
     margin-left: 100px;
 }
+
 .card {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-right: 100px;
 }
+
 .card h1 {
     font-size: 48px;
 }
+
 button {
     background-color: royalblue;
     margin-top: 8px;
@@ -70,36 +75,52 @@ button {
     width: 50px;
 
 }
+
 .content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 h2 {
     font-size: 36px;
     margin-top: 16px;
 }
-.content_bar{
+
+.content_bar {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 16px;
     margin-bottom: 24px;
 }
+
 .content_bar img {
     border: 4px solid blue;
     width: 200px;
     height: 200px;
     margin: 38px;
     border-radius: 15px;
-  
+
 }
+
 .quote_section {
     background-color: #7e8fb3;
-    height: 200px;
-    width: 100%;
     display: flex;
-    align-items: center;
-    justify-content:  center;
+    justify-content: center;
     font-size: 36px;
+    padding: 42px 36px;
+    
+}
+
+blockquote {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    
+}
+
+cite {
+    text-align: right;
 }
