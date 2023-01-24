@@ -15,7 +15,7 @@
 }
 
 .navbar {
-    border: 1px solid #fff;
+    
     width: 1800px;
     display: flex;
     justify-content: space-around;
@@ -103,9 +103,13 @@ h2 {
     border-radius: 15px;
 
 }
+.img_bar {
+    display: flex;
+    text-align: center;
+}
 
 .quote_section {
-    background-color: #7e8fb3;
+    background-color: #E5E7EB;
     display: flex;
     justify-content: center;
     font-size: 36px;
@@ -121,6 +125,4 @@ blockquote {
     
 }
 
-cite {
-    text-align: right;
-}
+
