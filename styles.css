@@ -53,7 +53,6 @@ li {
 .img_place {
     width: 450px;
     height: 300px;
-    border: 1px solid #fff;
     margin-left: 100px;
 }
 
@@ -85,6 +84,9 @@ button {
 h2 {
     font-size: 36px;
     margin-top: 16px;
+}
+.coding_img {
+    max-width: 100%;
 }
 
 .content_bar {
