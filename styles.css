@@ -135,12 +135,24 @@ blockquote {
     display: flex;
     margin: 40px auto;
     border: 1px solid blue;
+    justify-content: center;
+    background-color: #3882F6;
 }
 .bottom_section {
+
     background-color: #1F2937;
     text-align: center;
     color: aliceblue;
     margin-top: 20px;
     padding: 16px;
+    
 }
-
+.call {
+    padding: 20px 0px 5px 40px;
+}
+.call_text {
+    padding: 0px 0px 20px 40px;
+}
+.action_button {
+    padding: 20px 40px 0px 20px;
+}
